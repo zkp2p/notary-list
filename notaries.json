@@ -41,6 +41,26 @@
       "proxy": "wss://notary-eu-central-1.zkp2p.xyz/proxy"
     },
     {
+      "name": "Zurich",
+      "notary": "https://notary-eu-central-2.zkp2p.xyz",
+      "proxy": "wss://notary-eu-central-2.zkp2p.xyz/proxy"
+    },
+    {
+      "name": "Stockholm",
+      "notary": "https://notary-eu-north-1.zkp2p.xyz",
+      "proxy": "wss://notary-eu-north-1.zkp2p.xyz/proxy"
+    },
+    {
+      "name": "Milan",
+      "notary": "https://notary-eu-south-1.zkp2p.xyz",
+      "proxy": "wss://notary-eu-south-1.zkp2p.xyz/proxy"
+    },
+    {
+      "name": "Spain",
+      "notary": "https://notary-eu-south-2.zkp2p.xyz",
+      "proxy": "wss://notary-eu-south-2.zkp2p.xyz/proxy"
+    },
+    {
       "name": "Stockholm",
       "notary": "https://notary-eu-north-1.zkp2p.xyz",
       "proxy": "wss://notary-eu-north-1.zkp2p.xyz/proxy"
