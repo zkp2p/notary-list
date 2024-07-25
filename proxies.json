@@ -1,0 +1,8 @@
+{
+  "proxies": [
+    {
+      "name": "N. Virginia",
+      "proxy": "wss://witness-proxy.zkp2p.xyz/proxy"
+    }
+  ]
+}
