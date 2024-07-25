@@ -1,6 +1,10 @@
 {
   "proxies": [
     {
+      "name": "Local",
+      "proxy": "ws://localhost:8001/ws"
+    },
+    {
       "name": "N. Virginia",
       "proxy": "wss://witness-proxy.zkp2p.xyz/ws"
     }
