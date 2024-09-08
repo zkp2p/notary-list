@@ -1,0 +1,147 @@
+{
+  "message": "Active providers fetched successfully",
+  "providers": [
+    {
+      "id": "669eca16d7e0758c94dfc03f",
+      "httpProviderId": "6d3f6753-7ee6-49ee-a545-62f1b1822ae5",
+      "name": "Example",
+      "description": "Verify Example.com website",
+      "logoUrl": "https://zkp2p.xyz/app192.png",
+      "disableRequestReplay": false,
+      "url": "https://example.com/",
+      "matchType": "greedy",
+      "urlType": "TEMPLATE",
+      "loginUrl": "https://example.com/",
+      "responseSelections": [
+        {
+          "jsonPath": "",
+          "xPath": "",
+          "responseMatch": "<title>Example Domain</title>",
+          "matchType": "greedy",
+          "invert": false
+        }
+      ],
+      "customInjection": "",
+      "bodySniff": {
+        "enabled": false,
+        "regex": "",
+        "template": ""
+      },
+      "method": "GET",
+      "isApproved": true,
+      "geoLocation": "",
+      "proofCardText": "Prove you visited Example.com website",
+      "proofCardTextBefore": "Prove you visited Example.com website",
+      "proofCardTitle": "example.com",
+      "providerType": "TEMPLATE",
+      "isVerified": true,
+      "providerHash": "0x805a38e45b557219407b94f88f24463b32ee4d2bb5c0cec87fa2b6a62a68ff59",
+      "injectionType": "MSWJS",
+      "sampleIntegration": false,
+      "userAgent": {
+        "ios": "",
+        "android": ""
+      },
+      "isActive": true,
+      "additionalClientOptions": null,
+      "expectedPageUrl": null,
+      "pageTitle": null,
+      "stepsToFollow": null
+    },
+    {
+      "id": "669eca16d7e0758c94dfc03f",
+      "httpProviderId": "6d3f6753-7ee6-49ee-a545-62f1b1822ae5",
+      "name": "Venmo",
+      "description": "Verify Venmo login",
+      "logoUrl": "https://zkp2p.xyz/app192.png",
+      "disableRequestReplay": false,
+      "url": "https://www.paypalobjects.com/ice/content/c20240826224513/US/en.json",
+      "matchType": "greedy",
+      "urlType": "TEMPLATE",
+      "loginUrl": "https://id.venmo.com/signin",
+      "responseSelections": [
+        {
+          "jsonPath": "$.authButton.button.connect",
+          "xPath": "",
+          "responseMatch": "\"connect\":\"{{connect}}\"",
+          "matchType": "greedy",
+          "invert": false
+        }
+      ],
+      "customInjection": "",
+      "bodySniff": {
+        "enabled": false,
+        "regex": "",
+        "template": ""
+      },
+      "method": "GET",
+      "isApproved": true,
+      "geoLocation": "",
+      "proofCardText": "Successfully connected to Venmo",
+      "proofCardTextBefore": "Prove you visited Venmo's website",
+      "proofCardTitle": "venmo.com",
+      "providerType": "TEMPLATE",
+      "isVerified": true,
+      "providerHash": "0x805a38e45b557219407b94f88f24463b32ee4d2bb5c0cec87fa2b6a62a68ff59",
+      "injectionType": "MSWJS",
+      "sampleIntegration": false,
+      "userAgent": {
+        "ios": "",
+        "android": ""
+      },
+      "isActive": true,
+      "additionalClientOptions": null,
+      "expectedPageUrl": null,
+      "pageTitle": null,
+      "stepsToFollow": null
+    },
+    {
+      "id": "669eca16d7e0758c94dfc03f",
+      "httpProviderId": "6d3f6753-7ee6-49ee-a545-62f1b1822ae5",
+      "name": "Namecheap",
+      "description": "Verify Namecheap Session",
+      "logoUrl": "https://zkp2p.xyz/app192.png",
+      "disableRequestReplay": false,
+      "url": "https://www.namecheap.com/cart/ajax/SessionHandler.ashx",
+      "matchType": "greedy",
+      "urlType": "TEMPLATE",
+      "loginUrl": "https://www.namecheap.com/",
+      "responseSelections": [
+        {
+          "jsonPath": "",
+          "xPath": "",
+          "responseMatch": "\"SessionKey\":",
+          "matchType": "greedy",
+          "invert": false
+        }
+      ],
+      "customInjection": "",
+      "bodySniff": {
+        "enabled": false,
+        "regex": "",
+        "template": ""
+      },
+      "method": "GET",
+      "isApproved": true,
+      "geoLocation": "",
+      "proofCardText": "Successfully proved session",
+      "proofCardTextBefore": "Prove you visited Namecheap session",
+      "proofCardTitle": "namecheap.com",
+      "providerType": "TEMPLATE",
+      "isVerified": true,
+      "providerHash": "0x805a38e45b557219407b94f88f24463b32ee4d2bb5c0cec87fa2b6a62a68ff59",
+      "injectionType": "MSWJS",
+      "sampleIntegration": false,
+      "userAgent": {
+        "ios": "",
+        "android": ""
+      },
+      "isActive": true,
+      "additionalClientOptions": null,
+      "expectedPageUrl": null,
+      "pageTitle": null,
+      "stepsToFollow": null
+    }
+  ],
+  "isSuccess": true
+}
