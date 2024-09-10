@@ -5,7 +5,7 @@
       "id": "669eca16d7e0758c94dfc03f",
       "httpProviderId": "6d3f6753-7ee6-49ee-a545-62f1b1822ae5",
       "name": "Venmo",
-      "description": "Verify Venmo login",
+      "description": "Verify Venmo session",
       "logoUrl": "https://zkp2p.xyz/app192.png",
       "disableRequestReplay": false,
       "url": "https://www.paypalobjects.com/ice/content/c20240826224513/US/en.json",
